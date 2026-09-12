@@ -1,0 +1,2 @@
+Modèle,Accuracy,Precision,Recall,F1-score,AUC,Temps (s),Meilleurs paramètres
+Forêt aléatoire,0.9766806339952633,0.985572083659546,0.9718760339693394,0.9786761439360284,0.9772218007684534,57.08320212364197,"{'max_depth': 20, 'n_estimators': 100}"
