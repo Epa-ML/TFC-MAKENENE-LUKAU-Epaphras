@@ -30,8 +30,8 @@ Quatre modèles classiques de Machine Learning sont comparés sur le jeu de donn
 | `03_foret_aleatoire.ipynb` | Prétraitement + entraînement du modèle RF |
 | `04_svm.ipynb` | Prétraitement + entraînement du modèle SVM |
 | `requirements.txt` | Liste des dépendances Python |
-| `figures/` | Figures générées (matrices de confusion, courbes ROC) |
-| `data/` | Script de téléchargement du dataset UNSW-NB15 |
+| `resultats/` | Fichiers csv des résultats des modèles |
+| `data/` | UNSW-NB15 |
 
 ---
 
