@@ -1,0 +1,33 @@
+{
+  "modele": "Arbre de décision",
+  "training_file": "UNSW_NB15_training-set.csv",
+  "testing_file": "UNSW_NB15_1.csv",
+  "python": "3.11.0rc1",
+  "sklearn": "1.9.1",
+  "imblearn": "0.14.2",
+  "pandas": "3.0.6",
+  "numpy": "2.4.6",
+  "grille": {
+    "model__max_depth": [
+      3,
+      5,
+      7,
+      10
+    ],
+    "model__min_samples_split": [
+      10,
+      20,
+      50
+    ],
+    "model__min_samples_leaf": [
+      10,
+      20,
+      50
+    ]
+  },
+  "cv_folds": 5,
+  "cv_shuffle": true,
+  "random_state": 42,
+  "machine": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel"
+}

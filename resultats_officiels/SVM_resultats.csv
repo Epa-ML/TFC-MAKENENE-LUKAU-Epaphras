@@ -1,0 +1,2 @@
+﻿modele,variante,n_train,n_test,cv_folds,accuracy,precision,recall,f1,auc_roc,TN,FP,FN,TP,cv_best_f1,temps_optimisation_et_refit_s,meilleurs_parametres,seed
+SVM (RBF),sans_SMOTE,175341,82332,3,0.8277219064276344,0.7645579941564178,0.9928527309626753,0.8638771593090211,0.9394849870385695,23140,13860,324,45008,0.9585475217170177,25572.41176769999,"{""model__C"": 1, ""model__gamma"": 0.1}",42

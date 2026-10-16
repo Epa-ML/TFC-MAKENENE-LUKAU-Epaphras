@@ -1,0 +1,25 @@
+{
+  "modele": "SVM (RBF)",
+  "training_file": "UNSW_NB15_training-set.csv",
+  "testing_file": "UNSW_NB15_1.csv",
+  "python": "3.11.0rc1",
+  "sklearn": "1.9.1",
+  "imblearn": "0.14.2",
+  "pandas": "3.0.6",
+  "numpy": "2.4.6",
+  "grille": {
+    "model__C": [
+      0.1,
+      1
+    ],
+    "model__gamma": [
+      0.1,
+      1
+    ]
+  },
+  "cv_folds": 3,
+  "cv_shuffle": true,
+  "random_state": 42,
+  "machine": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel"
+}

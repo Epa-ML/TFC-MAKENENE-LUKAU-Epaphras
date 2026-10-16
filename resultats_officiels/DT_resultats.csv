@@ -1,0 +1,2 @@
+﻿modele,variante,n_train,n_test,cv_folds,accuracy,precision,recall,f1,auc_roc,TN,FP,FN,TP,cv_best_f1,temps_optimisation_et_refit_s,meilleurs_parametres,seed
+Arbre de décision,avec_SMOTE,175341,82332,5,0.8729291162609921,0.8228344998703848,0.980278831730345,0.8946828001369063,0.975634977439718,27432,9568,894,44438,0.9523965039404526,1856.7607165999943,"{""model__max_depth"": 10, ""model__min_samples_leaf"": 10, ""model__min_samples_split"": 10}",42

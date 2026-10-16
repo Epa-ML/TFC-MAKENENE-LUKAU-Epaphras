@@ -1,2 +1,0 @@
-Modèle,Accuracy,Precision,Recall,F1-score,AUC,Temps (s),Meilleurs paramètres
-Arbre de décision,0.95943401955426,0.9754330352088758,0.9502591816477335,0.9626815642458101,0.9604674286617045,60.588919162750244,"{'max_depth': 10, 'min_samples_leaf': 10, 'min_samples_split': 10}"
